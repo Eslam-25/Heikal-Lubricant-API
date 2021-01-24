@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>lubricant_api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heikal.Lubricant.Core\Heikal.Lubricant.Core.csproj" />
+    <ProjectReference Include="..\Heikal.Lubricant.Infrastructure\Heikal.Lubricant.Infrastructure.csproj" />
+    <ProjectReference Include="..\Lubricant.LoggerService\Heikal.Lubricant.LoggerService.csproj" />
+  </ItemGroup>
+
+
+</Project>

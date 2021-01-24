@@ -1,0 +1,9 @@
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\bin\Debug\netcoreapp3.1\Heikal.Lubricant.Core.deps.json
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\bin\Debug\netcoreapp3.1\Heikal.Lubricant.Core.dll
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\bin\Debug\netcoreapp3.1\Heikal.Lubricant.Core.pdb
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Core.csproj.CoreCompileInputs.cache
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Core.AssemblyInfoInputs.cache
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Core.AssemblyInfo.cs
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Core.dll
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Core.pdb
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Core.csprojAssemblyReference.cache

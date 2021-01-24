@@ -1,0 +1,12 @@
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Lubricant.LoggerService\bin\Debug\netcoreapp3.1\Heikal.Lubricant.LoggerService.deps.json
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Lubricant.LoggerService\bin\Debug\netcoreapp3.1\Heikal.Lubricant.LoggerService.dll
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Lubricant.LoggerService\bin\Debug\netcoreapp3.1\Heikal.Lubricant.LoggerService.pdb
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Lubricant.LoggerService\bin\Debug\netcoreapp3.1\Heikal.Lubricant.Core.dll
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Lubricant.LoggerService\bin\Debug\netcoreapp3.1\Heikal.Lubricant.Core.pdb
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Lubricant.LoggerService\obj\Debug\netcoreapp3.1\Heikal.Lubricant.LoggerService.csprojAssemblyReference.cache
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Lubricant.LoggerService\obj\Debug\netcoreapp3.1\Heikal.Lubricant.LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Lubricant.LoggerService\obj\Debug\netcoreapp3.1\Heikal.Lubricant.LoggerService.AssemblyInfoInputs.cache
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Lubricant.LoggerService\obj\Debug\netcoreapp3.1\Heikal.Lubricant.LoggerService.AssemblyInfo.cs
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Lubricant.LoggerService\obj\Debug\netcoreapp3.1\Heikal.Lubricant.LoggerService.csproj.CopyComplete
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Lubricant.LoggerService\obj\Debug\netcoreapp3.1\Heikal.Lubricant.LoggerService.dll
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Lubricant.LoggerService\obj\Debug\netcoreapp3.1\Heikal.Lubricant.LoggerService.pdb

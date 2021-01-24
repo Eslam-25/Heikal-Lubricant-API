@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "g0CwVwYRdcs2cqS3kTAoLP9DD2Td+jlsViiCuDQt16Ah7XBz6YmwNe/J+hBNtAjwraB4rpfekiefEJa5RLa2ww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eslam.heikal\\Desktop\\Demos\\Lubricant\\lubricant-api\\Lubricant.LoggerService\\Heikal.Lubricant.LoggerService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.0\\microsoft.extensions.configuration.3.0.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.0\\microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.0.0\\microsoft.extensions.configuration.binder.3.0.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.0.0\\microsoft.extensions.dependencyinjection.3.0.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\microsoft.extensions.logging\\3.0.0\\microsoft.extensions.logging.3.0.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.0\\microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\nlog\\4.7.6\\nlog.4.7.6.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\nlog.extensions.logging\\1.7.0\\nlog.extensions.logging.1.7.0.nupkg.sha512",
+    "C:\\Users\\eslam.heikal\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

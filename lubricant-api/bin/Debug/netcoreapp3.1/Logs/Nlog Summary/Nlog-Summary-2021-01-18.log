@@ -1,0 +1,371 @@
+2021-01-18 16:36:20.6544 | INFO | lubricant_api.Controllers.DayController+<GetAll>d__3 | MoveNext Method is Invoked 
+2021-01-18 16:36:20.7457 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Invoked 
+2021-01-18 16:36:20.9541 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | the data of Heikal.Lubricant.Core.Entities.Days are retreived successfully. 
+2021-01-18 16:36:21.0258 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 16:36:21.0258 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | Retrieve [7] of days from database. 
+2021-01-18 16:36:21.0335 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 16:49:06.2723 | INFO | lubricant_api.Controllers.DayController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 16:49:06.3675 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Invoked 
+2021-01-18 16:49:06.4082 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext | The Heikal.Lubricant.Core.Entities.Days mapped successfully. 
+2021-01-18 16:49:07.0264 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Ended 
+2021-01-18 16:49:12.2829 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext | Day Friday FD is added successfully. 
+2021-01-18 16:49:20.3617 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Ended 
+2021-01-18 16:59:18.7147 | INFO | lubricant_api.Controllers.LineController+<GetAll>d__3 | MoveNext Method is Invoked 
+2021-01-18 16:59:18.8127 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Invoked 
+2021-01-18 16:59:19.0448 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Line are retreived successfully. 
+2021-01-18 16:59:19.1125 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 16:59:19.1125 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | No lines retreived from database. 
+2021-01-18 16:59:19.1291 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 17:01:21.9050 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:01:21.9163 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Invoked 
+2021-01-18 17:01:22.1255 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Ended 
+2021-01-18 17:01:22.2267 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Ended 
+2021-01-18 17:02:30.7090 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:02:30.8182 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Invoked 
+2021-01-18 17:02:30.8624 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext | The Heikal.Lubricant.Core.Entities.Line mapped successfully. 
+2021-01-18 17:02:31.9339 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Ended 
+2021-01-18 17:02:32.1370 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Ended 
+2021-01-18 17:03:48.9650 | ERROR | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext | Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'DayName', table 'Heikal-Lubricant.dbo.Days'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:9a2b1927-2716-4cdf-907d-5f96581513f8
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Heikal.Lubricant.Core.Services.GenericService`2.AddAsync(T entity) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\Services\GenericService.cs:line 31
+   at lubricant_api.Controllers.LineController.Add(LineDto lineDto) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Controllers\LineController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at lubricant_api.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Middlewares\ExceptionMiddleware.cs:line 28 
+2021-01-18 17:03:58.2758 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:04:23.8112 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Invoked 
+2021-01-18 17:04:23.8441 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext | The Heikal.Lubricant.Core.Entities.Line mapped successfully. 
+2021-01-18 17:04:24.1085 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Ended 
+2021-01-18 17:04:24.2858 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Ended 
+2021-01-18 17:04:26.1762 | ERROR | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext | Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'DayName', table 'Heikal-Lubricant.dbo.Days'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:9a2b1927-2716-4cdf-907d-5f96581513f8
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Heikal.Lubricant.Core.Services.GenericService`2.AddAsync(T entity) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\Services\GenericService.cs:line 31
+   at lubricant_api.Controllers.LineController.Add(LineDto lineDto) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Controllers\LineController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at lubricant_api.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Middlewares\ExceptionMiddleware.cs:line 28 
+2021-01-18 17:04:30.0764 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:04:49.4762 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Invoked 
+2021-01-18 17:04:57.4508 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext | The Heikal.Lubricant.Core.Entities.Line mapped successfully. 
+2021-01-18 17:04:57.6572 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Ended 
+2021-01-18 17:04:57.8081 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Ended 
+2021-01-18 17:05:38.4636 | ERROR | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext | Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Days' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:9a2b1927-2716-4cdf-907d-5f96581513f8
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Heikal.Lubricant.Core.Services.GenericService`2.AddAsync(T entity) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\Services\GenericService.cs:line 31
+   at lubricant_api.Controllers.LineController.Add(LineDto lineDto) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Controllers\LineController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at lubricant_api.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Middlewares\ExceptionMiddleware.cs:line 28 
+2021-01-18 17:06:24.2258 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:06:33.5777 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Invoked 
+2021-01-18 17:12:59.6521 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:12:59.7483 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Invoked 
+2021-01-18 17:12:59.7894 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext | The Heikal.Lubricant.Core.Entities.Line mapped successfully. 
+2021-01-18 17:13:41.3874 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Ended 
+2021-01-18 17:13:41.6845 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<AddAsync>d__4 | MoveNext Method is Ended 
+2021-01-18 17:24:46.6399 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:24:46.7133 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:24:46.7473 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext | The Line mapped successfully. 
+2021-01-18 17:24:46.7542 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Invoked 
+2021-01-18 17:24:46.9808 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Days are retreived successfully. 
+2021-01-18 17:24:46.9902 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 17:24:46.9902 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The day of line mapped successfully. 
+2021-01-18 17:24:47.3268 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 17:24:47.4442 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 17:25:14.0275 | ERROR | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | Something went wrong: System.InvalidOperationException: The instance of entity type 'Days' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityStateAsync(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintActionAsync(EntityEntryGraphNode`1 node, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraphAsync[TState](EntityEntryGraphNode`1 node, Func`3 handleNode, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraphAsync[TState](EntityEntryGraphNode`1 node, Func`3 handleNode, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.AddAsync(TEntity entity, CancellationToken cancellationToken)
+   at Heikal.Lubricant.Infrastructure.Data.EFRepository`1.AddAsync(T entity) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\Data\EFRepository.cs:line 21
+   at Heikal.Lubricant.Core.Services.LineService.AddLine(LineDto lineDto) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\Services\LineService.cs:line 40
+   at lubricant_api.Controllers.LineController.Add(LineDto lineDto) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Controllers\LineController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at lubricant_api.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Middlewares\ExceptionMiddleware.cs:line 28 
+2021-01-18 17:27:14.7178 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:27:14.7325 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:27:14.7405 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext | The Line mapped successfully. 
+2021-01-18 17:27:30.4654 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Invoked 
+2021-01-18 17:27:30.5608 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Days are retreived successfully. 
+2021-01-18 17:27:30.5648 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 17:27:52.0721 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The day of line mapped successfully. 
+2021-01-18 17:27:53.2186 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 17:27:53.3617 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 17:28:06.4556 | ERROR | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | Something went wrong: System.InvalidOperationException: The instance of entity type 'Days' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityStateAsync(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintActionAsync(EntityEntryGraphNode`1 node, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraphAsync[TState](EntityEntryGraphNode`1 node, Func`3 handleNode, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraphAsync[TState](EntityEntryGraphNode`1 node, Func`3 handleNode, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.AddAsync(TEntity entity, CancellationToken cancellationToken)
+   at Heikal.Lubricant.Infrastructure.Data.EFRepository`1.AddAsync(T entity) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\Data\EFRepository.cs:line 21
+   at Heikal.Lubricant.Core.Services.LineService.AddLine(LineDto lineDto) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\Services\LineService.cs:line 40
+   at lubricant_api.Controllers.LineController.Add(LineDto lineDto) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Controllers\LineController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at lubricant_api.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Middlewares\ExceptionMiddleware.cs:line 28 
+2021-01-18 17:45:39.2927 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:45:39.3801 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:45:39.4075 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext | The Line mapped successfully. 
+2021-01-18 17:45:44.8359 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Invoked 
+2021-01-18 17:45:45.1414 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Days are retreived successfully. 
+2021-01-18 17:45:45.1634 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 17:45:47.2917 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The day of line mapped successfully. 
+2021-01-18 17:45:49.9486 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 17:45:50.1450 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 17:48:37.3074 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:48:37.3859 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext Method is Invoked 
+2021-01-18 17:48:37.4167 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext | The Line mapped successfully. 
+2021-01-18 17:49:21.9032 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Invoked 
+2021-01-18 17:49:22.1633 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Days are retreived successfully. 
+2021-01-18 17:49:22.1817 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 17:49:22.1937 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The day of line mapped successfully. 
+2021-01-18 17:49:22.7791 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 17:49:22.9098 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:35:33.0836 | ERROR | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Days' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:b617dd00-7cc1-4f99-8f5a-cadbbc78586d
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Heikal.Lubricant.Core.Services.LineService.AddLine(LineDto lineDto) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Core\Services\LineService.cs:line 41
+   at lubricant_api.Controllers.LineController.Add(LineDto lineDto) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Controllers\LineController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at lubricant_api.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Middlewares\ExceptionMiddleware.cs:line 28 
+2021-01-18 23:35:39.2857 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:35:39.2857 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:35:39.2857 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext | The Line mapped successfully. 
+2021-01-18 23:38:37.3279 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:38:37.4168 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:38:37.4660 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext | The Line mapped successfully. 
+2021-01-18 23:38:37.4751 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:38:37.6792 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Days are retreived successfully. 
+2021-01-18 23:38:37.7171 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:38:37.7313 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | The day of line mapped successfully. 
+2021-01-18 23:38:38.2448 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:38:38.3637 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:42:01.3045 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:42:01.3651 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:42:01.3976 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext | The Line mapped successfully. 
+2021-01-18 23:42:01.3976 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:42:01.5276 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Days are retreived successfully. 
+2021-01-18 23:42:01.5527 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:42:01.5527 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | The day of line mapped successfully. 
+2021-01-18 23:42:01.8506 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:42:01.9364 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:46:06.3489 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:46:06.4647 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:46:06.5108 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext | The Line mapped successfully. 
+2021-01-18 23:46:06.5225 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:46:06.7688 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Days are retreived successfully. 
+2021-01-18 23:46:06.8118 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:46:06.8242 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | The day of line mapped successfully. 
+2021-01-18 23:46:07.4193 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:46:07.4242 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | Line line 1 is added successfully. 
+2021-01-18 23:46:07.4242 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:46:13.7495 | INFO | lubricant_api.Controllers.LineController+<GetAll>d__3 | MoveNext Method is Invoked 
+2021-01-18 23:46:13.7533 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:46:13.7924 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Line are retreived successfully. 
+2021-01-18 23:46:13.8060 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:46:13.8060 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | Retrieve [1] of lines from database. 
+2021-01-18 23:46:13.8060 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:47:13.0211 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:47:13.1293 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:47:13.1737 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext | The Line mapped successfully. 
+2021-01-18 23:47:13.1737 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Invoked 
+2021-01-18 23:47:13.5410 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Days are retreived successfully. 
+2021-01-18 23:47:13.5535 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:47:13.5652 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The day of line mapped successfully. 
+2021-01-18 23:47:14.0910 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:47:14.0910 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | Line line 2 is added successfully. 
+2021-01-18 23:47:14.0964 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:47:20.3300 | INFO | lubricant_api.Controllers.LineController+<GetAll>d__3 | MoveNext Method is Invoked 
+2021-01-18 23:47:20.3300 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:47:20.3656 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Line are retreived successfully. 
+2021-01-18 23:47:20.3850 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:47:20.3850 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext | Retrieve [2] of lines from database. 
+2021-01-18 23:47:20.3850 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetAllAsync>d__5 | MoveNext Method is Ended 
+2021-01-18 23:48:04.2812 | INFO | lubricant_api.Controllers.LineController+<Get>d__4 | MoveNext Method is Invoked 
+2021-01-18 23:48:09.1644 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Invoked 
+2021-01-18 23:48:37.1605 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Line are retreived successfully. 
+2021-01-18 23:48:37.1848 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:48:37.1848 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The line is retreived from database. 
+2021-01-18 23:48:37.1887 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:48:46.8660 | INFO | lubricant_api.Controllers.LineController+<Get>d__4 | MoveNext Method is Invoked 
+2021-01-18 23:48:46.8660 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Invoked 
+2021-01-18 23:48:55.5064 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Line are retreived successfully. 
+2021-01-18 23:48:55.5064 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:48:55.5189 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The line is retreived from database. 
+2021-01-18 23:48:55.5189 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:50:08.3431 | INFO | lubricant_api.Controllers.LineController+<Add>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:50:08.3478 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext Method is Invoked 
+2021-01-18 23:50:08.3478 | INFO | Heikal.Lubricant.Core.Services.LineService+<AddLine>d__5 | MoveNext | The Line mapped successfully. 
+2021-01-18 23:50:08.3478 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Invoked 
+2021-01-18 23:50:08.3760 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Days are retreived successfully. 
+2021-01-18 23:50:08.3760 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:50:08.3760 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The day of line mapped successfully. 
+2021-01-18 23:50:08.3760 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:50:08.3924 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | Line line 12 is added successfully. 
+2021-01-18 23:50:08.3924 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:58:46.0504 | INFO | lubricant_api.Controllers.LineController+<Get>d__4 | MoveNext Method is Invoked 
+2021-01-18 23:58:46.1771 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Invoked 
+2021-01-18 23:58:46.5671 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The data of Heikal.Lubricant.Core.Entities.Line are retreived successfully. 
+2021-01-18 23:58:46.6150 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:58:46.6150 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext | The line is retreived from database. 
+2021-01-18 23:58:46.6291 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Ended 
+2021-01-18 23:58:58.6329 | INFO | lubricant_api.Controllers.LineController+<Get>d__4 | MoveNext Method is Invoked 
+2021-01-18 23:58:58.6329 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Invoked 
+2021-01-18 23:59:27.9136 | INFO | lubricant_api.Controllers.LineController+<Get>d__4 | MoveNext Method is Invoked 
+2021-01-18 23:59:27.9497 | INFO | Heikal.Lubricant.Core.Services.GenericService`2+<GetByIdAsync>d__6 | MoveNext Method is Invoked 

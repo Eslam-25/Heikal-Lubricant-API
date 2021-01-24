@@ -1,0 +1,15 @@
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\bin\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.deps.json
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\bin\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.runtimeconfig.json
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\bin\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.runtimeconfig.dev.json
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\bin\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.dll
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\bin\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.pdb
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\bin\Debug\netcoreapp3.1\Heikal.Lubricant.Core.dll
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\bin\Debug\netcoreapp3.1\Heikal.Lubricant.Core.pdb
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.csprojAssemblyReference.cache
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.AssemblyInfo.cs
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.csproj.CopyComplete
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.dll
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.pdb
+C:\Users\eslam.heikal\Desktop\Demos\Lubricant\Heikal.Lubricant.Infrastructure\obj\Debug\netcoreapp3.1\Heikal.Lubricant.Infrastructure.genruntimeconfig.cache

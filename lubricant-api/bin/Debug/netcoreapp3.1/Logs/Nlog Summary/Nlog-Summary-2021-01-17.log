@@ -1,0 +1,103 @@
+2021-01-17 20:34:48.5698 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute Method is Invoked 
+2021-01-17 20:34:48.6716 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute | infoooo 
+2021-01-17 20:34:48.6824 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute Method is Ended 
+2021-01-17 20:40:43.2087 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute Method is Invoked 
+2021-01-17 20:40:43.2891 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute | infoooo 
+2021-01-17 20:40:43.3113 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute Method is Ended 
+2021-01-17 20:41:54.6008 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute Method is Invoked 
+2021-01-17 20:41:54.6924 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute | infoooo 
+2021-01-17 20:41:54.7056 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute Method is Ended 
+2021-01-17 20:47:42.5698 | ERROR | An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Heikal.Lubricant.Core.Interfaces.ILoggerManager' while attempting to activate 'lubricant_api.Controllers.WeatherForecastController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-17 20:49:48.2718 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute Method is Invoked 
+2021-01-17 20:49:48.2900 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute | infoooo 
+2021-01-17 20:49:48.3001 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute Method is Ended 
+2021-01-17 20:52:27.2993 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute Method is Invoked 
+2021-01-17 20:52:27.3228 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute | infoooo 
+2021-01-17 20:52:27.3311 | INFO | Microsoft.Extensions.Internal.ObjectMethodExecutor | Execute Method is Ended 
+2021-01-17 20:57:26.2228 | INFO |  | Get Method is Invoked 
+2021-01-17 20:57:26.2353 | INFO |  |  | infoooo 
+2021-01-17 20:57:26.2567 | INFO |  |  Method is Ended 
+2021-01-17 20:58:49.2762 | INFO |  | Get Method is Invoked 
+2021-01-17 20:58:49.2762 | INFO |  | Get | infoooo 
+2021-01-17 20:58:49.2889 | INFO |  | Get Method is Ended 
+2021-01-17 21:00:57.1599 | INFO | lubricant_api.Controllers.WeatherForecastController | Get Method is Invoked 
+2021-01-17 21:00:57.1599 | INFO | lubricant_api.Controllers.WeatherForecastController | Get | infoooo 
+2021-01-17 21:00:57.1966 | INFO | lubricant_api.Controllers.WeatherForecastController | Get Method is Ended 
+2021-01-17 21:02:43.2095 | INFO | lubricant_api.Controllers.WeatherForecastController | Get Method is Invoked 
+2021-01-17 21:02:43.2996 | INFO | lubricant_api.Controllers.WeatherForecastController | Get | infoooo 
+2021-01-17 21:02:43.3300 | INFO | lubricant_api.Controllers.WeatherForecastController | Get Method is Ended 
+2021-01-17 23:18:36.6179 | INFO | lubricant_api.Controllers.WeatherForecastController | Get Method is Invoked 
+2021-01-17 23:18:36.7430 | INFO | lubricant_api.Controllers.WeatherForecastController | Get | infoooo 
+2021-01-17 23:18:58.4615 | INFO | lubricant_api.Controllers.WeatherForecastController | Get Method is Ended 
+2021-01-17 23:18:58.6884 | ERROR | lubricant_api.Controllers.WeatherForecastController | Get | Something went wrong: System.Exception: hhhhhhh
+   at lubricant_api.Controllers.WeatherForecastController.Get() in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Controllers\WeatherForecastController.cs:line 35
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at lubricant_api.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Middlewares\ExceptionMiddleware.cs:line 28 
+2021-01-17 23:19:13.4291 | INFO | lubricant_api.Controllers.WeatherForecastController | Get Method is Invoked 
+2021-01-17 23:19:13.4586 | INFO | lubricant_api.Controllers.WeatherForecastController | Get | infoooo 
+2021-01-17 23:19:24.2436 | INFO | lubricant_api.Controllers.WeatherForecastController | Get Method is Ended 
+2021-01-17 23:19:30.7203 | ERROR | lubricant_api.Controllers.WeatherForecastController | Get | Something went wrong: System.Exception: hhhhhhh
+   at lubricant_api.Controllers.WeatherForecastController.Get() in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Controllers\WeatherForecastController.cs:line 35
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at lubricant_api.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Middlewares\ExceptionMiddleware.cs:line 28 
+2021-01-17 23:21:02.4883 | INFO | lubricant_api.Controllers.WeatherForecastController | Get Method is Invoked 
+2021-01-17 23:21:02.5887 | INFO | lubricant_api.Controllers.WeatherForecastController | Get | infoooo 
+2021-01-17 23:21:11.5901 | INFO | lubricant_api.Controllers.WeatherForecastController | Get Method is Ended 
+2021-01-17 23:21:11.7273 | ERROR | lubricant_api.Controllers.WeatherForecastController | Get | Something went wrong: System.Exception: hhhhhhh
+   at lubricant_api.Controllers.WeatherForecastController.Get() in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Controllers\WeatherForecastController.cs:line 35
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at lubricant_api.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\eslam.heikal\Desktop\Demos\Lubricant\lubricant-api\Middlewares\ExceptionMiddleware.cs:line 28 
